@@ -3,6 +3,7 @@
 
 #include "pch.h"
 #include <iostream>
+#include "Database.h"
 
 int main()
 {

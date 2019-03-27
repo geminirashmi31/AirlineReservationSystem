@@ -151,6 +151,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="Flight.h" />
+    <ClInclude Include="Passenger.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
