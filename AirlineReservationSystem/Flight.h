@@ -11,16 +11,19 @@ namespace AirlineReservationSystem
 			const std::string& arrivalCity, int flightNumber, int totalSeats);
 
 		int getFlightNumber() const;
-		void getFlightNumber(int passengerNumber);
+		void setFlightNumber(int flightNumber);
 
 		const std::string& getFlightName() const;
-		void setFlightName(const std::string& firstName);
+		void setFlightName(const std::string& flightName);
 
 		const std::string& getDepartureCity() const;
-		void setDepartureCity(const std::string& lastName);
+		void setDepartureCity(const std::string& departureCity);
 
 		const std::string& getArrivalCity() const;
-		void setArrivalCity(const std::string& lastName);
+		void setArrivalCity(const std::string& arrivalCity);
+
+		int getTotalSeats() const;
+		void setTotalSeats(int totalSeats);
 
 		void display() const;
 
@@ -29,5 +32,6 @@ namespace AirlineReservationSystem
 		std::string mDepartureCity;
 		std::string mArrivalCity;
 		int mFlightNumber = -1;
+		int mTotalSeats = 0;
 	};
 }
